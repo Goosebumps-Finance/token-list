@@ -1,16 +1,16 @@
 {
-  "https://tokens.pancakeswap.finance/pancakeswap-default.json": {
+  "https://tokens.goosebumps.finance/goosebumps-default.json": {
     "name": "PancakeSwap Default",
-    "homepage": "https://pancakeswap.finance"
+    "homepage": "https://goosebumps.finance"
   },
-  "https://tokens.pancakeswap.finance/pancakeswap-extended.json": {
+  "https://tokens.goosebumps.finance/goosebumps-extended.json": {
     "name": "PancakeSwap Extended",
-    "homepage": "https://pancakeswap.finance"
+    "homepage": "https://goosebumps.finance"
     
   },
-  "https://tokens.pancakeswap.finance/pancakeswap-top-100.json": {
+  "https://tokens.goosebumps.finance/goosebumps-top-100.json": {
     "name": "PancakeSwap Top 100",
-    "homepage": "https://pancakeswap.finance"
+    "homepage": "https://goosebumps.finance"
     
   },
   "https://tokens.coingecko.com/binance-smart-chain/all.json": {

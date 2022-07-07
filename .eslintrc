@@ -10,7 +10,7 @@
     "es6": true,
     "jest": true
   },
-  "extends": "@pancakeswap/eslint-config-pancake",
+  "extends": "@goosebumps/eslint-config-goosebumps",
   "rules": {
     "no-console": ["warn", { "allow": ["info", "warn", "error"] }]
   }
