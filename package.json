@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "rm -rf ./dist && rollup -c",
     "checksum:goosebumps-default": "yarn build && node ./dist checksum goosebumps-default",
