@@ -1,22 +1,22 @@
 import fs from "fs";
 import path from "path";
 import { TokenList } from "@uniswap/token-lists";
-import { version as pancakeswapDefaultVersion } from "../lists/goosebumps-default.json";
-import { version as pancakeswapExtendedVersion } from "../lists/goosebumps-extended.json";
-import { version as pancakeswapTop15Version } from "../lists/goosebumps-top-15.json";
-import { version as pancakeswapTop100Version } from "../lists/goosebumps-top-100.json";
+import { version as goosebumpsDefaultVersion } from "../lists/goosebumps-default.json";
+import { version as goosebumpsExtendedVersion } from "../lists/goosebumps-extended.json";
+import { version as goosebumpsTop15Version } from "../lists/goosebumps-top-15.json";
+import { version as goosebumpsTop100Version } from "../lists/goosebumps-top-100.json";
 import { version as coingeckoVersion } from "../lists/coingecko.json";
 import { version as cmcVersion } from "../lists/cmc.json";
-import { version as pancakeswapMiniVersion } from "../lists/goosebumps-mini.json";
-import { version as pancakeswapMiniExtendedVersion } from "../lists/goosebumps-mini-extended.json";
-import pancakeswapDefault from "./tokens/goosebumps-default.json";
-import pancakeswapExtended from "./tokens/goosebumps-extended.json";
-import pancakeswapTop100 from "./tokens/goosebumps-top-100.json";
-import pancakeswapTop15 from "./tokens/goosebumps-top-15.json";
+import { version as goosebumpsMiniVersion } from "../lists/goosebumps-mini.json";
+import { version as goosebumpsMiniExtendedVersion } from "../lists/goosebumps-mini-extended.json";
+import goosebumpsDefault from "./tokens/goosebumps-default.json";
+import goosebumpsExtended from "./tokens/goosebumps-extended.json";
+import goosebumpsTop100 from "./tokens/goosebumps-top-100.json";
+import goosebumpsTop15 from "./tokens/goosebumps-top-15.json";
 import coingecko from "./tokens/coingecko.json";
 import cmc from "./tokens/cmc.json";
-import pancakeswapMini from "./tokens/goosebumps-mini.json";
-import pancakeswapMiniExtended from "./tokens/goosebumps-mini-extended.json";
+import goosebumpsMini from "./tokens/goosebumps-mini.json";
+import goosebumpsMiniExtended from "./tokens/goosebumps-mini-extended.json";
 
 export enum VersionBump {
   "major" = "major",
@@ -32,36 +32,36 @@ type Version = {
 
 const lists = {
   "goosebumps-default": {
-    list: pancakeswapDefault,
-    name: "PancakeSwap Default",
+    list: goosebumpsDefault,
+    name: "GooseBumps Default",
     keywords: ["goosebumps", "default"],
     logoURI: "https://goosebumps.finance/logo.png",
     sort: false,
-    currentVersion: pancakeswapDefaultVersion,
+    currentVersion: goosebumpsDefaultVersion,
   },
   "goosebumps-extended": {
-    list: pancakeswapExtended,
-    name: "PancakeSwap Extended",
+    list: goosebumpsExtended,
+    name: "GooseBumps Extended",
     keywords: ["goosebumps", "extended"],
     logoURI: "https://goosebumps.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapExtendedVersion,
+    currentVersion: goosebumpsExtendedVersion,
   },
   "goosebumps-top-100": {
-    list: pancakeswapTop100,
-    name: "PancakeSwap Top 100",
+    list: goosebumpsTop100,
+    name: "GooseBumps Top 100",
     keywords: ["goosebumps", "top 100"],
     logoURI: "https://goosebumps.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapTop100Version,
+    currentVersion: goosebumpsTop100Version,
   },
   "goosebumps-top-15": {
-    list: pancakeswapTop15,
-    name: "PancakeSwap Top 15",
+    list: goosebumpsTop15,
+    name: "GooseBumps Top 15",
     keywords: ["goosebumps", "top 15"],
     logoURI: "https://goosebumps.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapTop15Version,
+    currentVersion: goosebumpsTop15Version,
   },
   coingecko: {
     list: coingecko,
@@ -81,20 +81,20 @@ const lists = {
     currentVersion: cmcVersion,
   },
   "goosebumps-mini": {
-    list: pancakeswapMini,
-    name: "PancakeSwap Mini",
+    list: goosebumpsMini,
+    name: "GooseBumps Mini",
     keywords: ["goosebumps", "binance", "mini program", "mini"],
     logoURI: "https://goosebumps.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapMiniVersion,
+    currentVersion: goosebumpsMiniVersion,
   },
   "goosebumps-mini-extended": {
-    list: pancakeswapMiniExtended,
-    name: "PancakeSwap Mini Ext",
+    list: goosebumpsMiniExtended,
+    name: "GooseBumps Mini Ext",
     keywords: ["goosebumps", "binance", "mini program", "mini", "extended"],
     logoURI: "https://goosebumps.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapMiniExtendedVersion,
+    currentVersion: goosebumpsMiniExtendedVersion,
   },
 };
 

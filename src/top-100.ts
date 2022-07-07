@@ -57,7 +57,7 @@ const getDateRange = (): string[] => {
 };
 
 /**
- * Fetch Top100 Tokens traded on PancakeSwap v2, ordered by trading volume,
+ * Fetch Top100 Tokens traded on GooseBumps, ordered by trading volume,
  * for the past 30 days, filtered to remove default / broken tokens.
  *
  * @returns BitqueryEntity[]]

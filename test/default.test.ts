@@ -4,26 +4,26 @@ import fs from "fs";
 import path from "path";
 import { getAddress } from "@ethersproject/address";
 import { schema } from "@uniswap/token-lists";
-import currentPancakeswapDefaultList from "../lists/goosebumps-default.json";
-import currentPancakeswapExtendedtList from "../lists/goosebumps-extended.json";
-import currentPancakeswapTop15List from "../lists/goosebumps-top-15.json";
-import currentPancakeswapTop100tList from "../lists/goosebumps-top-100.json";
+import currentGoosebumpsDefaultList from "../lists/goosebumps-default.json";
+import currentGoosebumpsExtendedtList from "../lists/goosebumps-extended.json";
+import currentGoosebumpsTop15List from "../lists/goosebumps-top-15.json";
+import currentGoosebumpsTop100tList from "../lists/goosebumps-top-100.json";
 import currentCoingeckoList from "../lists/coingecko.json";
 import currentCmcList from "../lists/cmc.json";
-import currentPancakeswapMiniList from "../lists/goosebumps-mini.json";
-import currentPancakeswapMiniExtendedList from "../lists/goosebumps-mini-extended.json";
+import currentGoosebumpsMiniList from "../lists/goosebumps-mini.json";
+import currentGoosebumpsMiniExtendedList from "../lists/goosebumps-mini-extended.json";
 import { buildList, VersionBump } from "../src/buildList";
 import getTokenChainData from "../src/utils/getTokensChainData";
 
 const currentLists = {
-  "goosebumps-default": currentPancakeswapDefaultList,
-  "goosebumps-extended": currentPancakeswapExtendedtList,
-  "goosebumps-top-100": currentPancakeswapTop100tList,
-  "goosebumps-top-15": currentPancakeswapTop15List,
+  "goosebumps-default": currentGoosebumpsDefaultList,
+  "goosebumps-extended": currentGoosebumpsExtendedtList,
+  "goosebumps-top-100": currentGoosebumpsTop100tList,
+  "goosebumps-top-15": currentGoosebumpsTop15List,
   coingecko: currentCoingeckoList,
   cmc: currentCmcList,
-  "goosebumps-mini": currentPancakeswapMiniList,
-  "goosebumps-mini-extended": currentPancakeswapMiniExtendedList,
+  "goosebumps-mini": currentGoosebumpsMiniList,
+  "goosebumps-mini-extended": currentGoosebumpsMiniExtendedList,
 };
 
 const ajv = new Ajv({ allErrors: true, format: "full" });

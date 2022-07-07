@@ -1,24 +1,24 @@
 import fs from "fs";
 import path from "path";
 import { getAddress } from "@ethersproject/address";
-import pancakeswapDefault from "./tokens/goosebumps-default.json";
-import pancakeswapExtended from "./tokens/goosebumps-extended.json";
-import pancakeswapTop100 from "./tokens/goosebumps-top-100.json";
-import pancakeswapTop15 from "./tokens/goosebumps-top-15.json";
+import goosebumpsDefault from "./tokens/goosebumps-default.json";
+import goosebumpsExtended from "./tokens/goosebumps-extended.json";
+import goosebumpsTop100 from "./tokens/goosebumps-top-100.json";
+import goosebumpsTop15 from "./tokens/goosebumps-top-15.json";
 import coingecko from "./tokens/coingecko.json";
 import cmc from "./tokens/cmc.json";
-import pancakeswapMini from "./tokens/goosebumps-mini.json";
-import pancakeswapMiniExtended from "./tokens/goosebumps-mini-extended.json";
+import goosebumpsMini from "./tokens/goosebumps-mini.json";
+import goosebumpsMiniExtended from "./tokens/goosebumps-mini-extended.json";
 
 const lists = {
-  "goosebumps-default": pancakeswapDefault,
-  "goosebumps-extended": pancakeswapExtended,
-  "goosebumps-top-100": pancakeswapTop100,
-  "goosebumps-top-15": pancakeswapTop15,
+  "goosebumps-default": goosebumpsDefault,
+  "goosebumps-extended": goosebumpsExtended,
+  "goosebumps-top-100": goosebumpsTop100,
+  "goosebumps-top-15": goosebumpsTop15,
   coingecko,
   cmc,
-  "goosebumps-mini": pancakeswapMini,
-  "goosebumps-mini-extended": pancakeswapMiniExtended,
+  "goosebumps-mini": goosebumpsMini,
+  "goosebumps-mini-extended": goosebumpsMiniExtended,
 };
 
 const checksumAddresses = (listName: string): void => {
