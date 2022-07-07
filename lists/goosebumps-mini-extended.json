@@ -1,14 +1,14 @@
 {
-  "name": "PancakeSwap Mini Ext",
+  "name": "GooseBumps Mini Ext",
   "timestamp": "2022-07-06T04:23:40.833Z",
   "version": {
     "major": 1,
     "minor": 0,
     "patch": 10
   },
-  "logoURI": "https://pancakeswap.finance/logo.png",
+  "logoURI": "https://goosebumps.finance/logo.png",
   "keywords": [
-    "pancakeswap",
+    "goosebumps",
     "binance",
     "mini program",
     "mini",

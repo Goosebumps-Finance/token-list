@@ -1,14 +1,14 @@
 {
-  "name": "PancakeSwap Extended",
+  "name": "GooseBumps Extended",
   "timestamp": "2022-07-06T04:23:53.860Z",
   "version": {
     "major": 2,
     "minor": 16,
     "patch": 97
   },
-  "logoURI": "https://pancakeswap.finance/logo.png",
+  "logoURI": "https://goosebumps.finance/logo.png",
   "keywords": [
-    "pancakeswap",
+    "goosebumps",
     "extended"
   ],
   "tokens": [
