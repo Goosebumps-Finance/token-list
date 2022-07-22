@@ -1,7 +1,7 @@
 # GooseBumps Token Lists
 
 This repo contains main GooseBumps token list and tools to validate it.
-Forked from [PancakeSwap](https://github.com/goosebumps/token-list/commit/e888c34332bedfc365b58d6765aea18a14ea46b0)
+Forked from [GooseBumps](https://github.com/goosebumps/token-list/commit/e888c34332bedfc365b58d6765aea18a14ea46b0)
 
 ## How to add external lists
 
