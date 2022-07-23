@@ -1,15 +1,15 @@
 {
-  "https://tokens.goosebumps.finance/goosebumps-default.json": {
-    "name": "PancakeSwap Default",
+  "https://goosebumps.finance/token-lists/goosebumps-default.json": {
+    "name": "GooseBumps Default",
     "homepage": "https://goosebumps.finance"
   },
-  "https://tokens.goosebumps.finance/goosebumps-extended.json": {
-    "name": "PancakeSwap Extended",
+  "https://goosebumps.finance/token-lists/goosebumps-extended.json": {
+    "name": "GooseBumps Extended",
     "homepage": "https://goosebumps.finance"
     
   },
-  "https://tokens.goosebumps.finance/goosebumps-top-100.json": {
-    "name": "PancakeSwap Top 100",
+  "https://goosebumps.finance/token-lists/goosebumps-top-100.json": {
+    "name": "GooseBumps Top 100",
     "homepage": "https://goosebumps.finance"
     
   },
